@@ -1,0 +1,5 @@
+580 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
+596 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\djach\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
+9396 [main] INFO  BaseTest.class - Driver is opened
+9411 [main] INFO  BaseTest.class - Actual title is API Documentation & Design Tools for Teams | Swagger
+9584 [main] INFO  BaseTest.class - Driver is closed

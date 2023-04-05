@@ -1,0 +1,17 @@
+globals:
+  environment: env_test
+  #  environment: env_int
+
+  browser: chrome
+  headless: No
+  timeout: 60
+
+env_int:
+  url: https://swagger.io/
+  name: int
+  title: API Documentation & Design Tools for Teams | Swagger
+
+env_test:
+  url: https://www.filmweb.pl/
+  name: test
+  title: Filmweb - filmy takie jak Ty!
