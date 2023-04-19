@@ -1,5 +1,5 @@
 542 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
 555 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\djach\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
-2480 [main] INFO  BaseTest.class - Driver is opened
-2496 [main] INFO  BaseTest.class - Actual title is Filmweb - filmy takie jak Ty!
-2686 [main] INFO  BaseTest.class - Driver is closed
+2480 [main] INFO  tests.BaseTest.class - Driver is opened
+2496 [main] INFO  tests.BaseTest.class - Actual title is Filmweb - filmy takie jak Ty!
+2686 [main] INFO  tests.BaseTest.class - Driver is closed

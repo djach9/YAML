@@ -1,3 +1,5 @@
+package tests;
+
 import configuration.BrowserEnv;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -9,7 +11,9 @@ import java.io.IOException;
 
 public class BaseTest {
     protected static WebDriver driver;
-    protected static Logger logger = LoggerFactory.getLogger("BaseTest.class");
+    protected static Logger logger = LoggerFactory.getLogger("tests.BaseTest.class");
+
+
 
     @BeforeAll
     static void setUp() throws IOException {

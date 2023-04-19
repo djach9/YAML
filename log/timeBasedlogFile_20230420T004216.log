@@ -1,0 +1,5 @@
+586 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+602 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\djach\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+2713 [main] INFO  tests.BaseTest.class - Driver is opened
+2736 [main] INFO  tests.BaseTest.class - Actual title is benchmark.pl | recenzje, testy, newsy, rankingi
+2898 [main] INFO  tests.BaseTest.class - Driver is closed

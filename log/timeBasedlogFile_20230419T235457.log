@@ -1,0 +1,3 @@
+4322 [main] INFO  tests.BaseTest.class - Driver is opened
+4348 [main] INFO  tests.BaseTest.class - Actual title is API Documentation & Design Tools for Teams | Swagger
+4551 [main] INFO  tests.BaseTest.class - Driver is closed

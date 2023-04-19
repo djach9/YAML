@@ -5,25 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534aabad-2099-437b-ad19-73bcb1449bb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/BrowserEnv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215132.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215132.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215233.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215233.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215400.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215400.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215456.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215456.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215601.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215601.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215624.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215624.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215725.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215725.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215815.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215815.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215826.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile_20230405T215826.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/BrowserEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/BrowserEnv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationRetriever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,14 +62,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="TitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YamlProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TitleTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TitleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />

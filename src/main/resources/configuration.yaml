@@ -1,17 +1,27 @@
 globals:
-  environment: env_test
-  #  environment: env_int
-
+  environment: env_dev
   browser: chrome
   headless: No
   timeout: 60
-
-env_int:
+environments:
+ env_int:
   url: https://swagger.io/
   name: int
   title: API Documentation & Design Tools for Teams | Swagger
 
-env_test:
+ env_test:
   url: https://www.filmweb.pl/
   name: test
   title: Filmweb - filmy takie jak Ty!
+
+ env_stage:
+    url: https://www.google.pl/
+    name: stage
+    title: Google
+
+ env_dev:
+   url: https://www.benchmark.pl/
+   name: stage
+   title: benchmark.pl | recenzje, testy, newsy, rankingi
+
+

@@ -1,5 +1,5 @@
 547 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
 560 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\djach\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
-5615 [main] INFO  BaseTest.class - WebDriver initialized properly
-5630 [main] INFO  BaseTest.class - Actual title is API Documentation & Design Tools for Teams | Swagger
-5751 [main] INFO  BaseTest.class - Driver is closed
+5615 [main] INFO  tests.BaseTest.class - WebDriver initialized properly
+5630 [main] INFO  tests.BaseTest.class - Actual title is API Documentation & Design Tools for Teams | Swagger
+5751 [main] INFO  tests.BaseTest.class - Driver is closed

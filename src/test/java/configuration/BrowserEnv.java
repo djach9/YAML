@@ -11,22 +11,25 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 
 import java.io.IOException;
 
-import static configuration.ConfigurationRetriever.getConfig;
-
 public class BrowserEnv {
-
     private final String browserName;
     private final boolean headlessBrowser;
+    private final String currentEnvName;
     private WebDriver driver;
 
+
     public BrowserEnv() throws IOException {
-        Configuration configuration = getConfig();
+
+        Configuration configuration = ConfigurationRetriever.getConfig();
+
         this.browserName = configuration.isSpecified("browser") ? configuration.getProperty("browser").toString() : "firefox";
         this.headlessBrowser = configuration.isSpecified("headless") && Boolean.parseBoolean(configuration.getProperty("headless").toString());
+        this.currentEnvName = configuration.getProperty("environment").toString();
         this.initBrowserSettings();
+
     }
 
-    private void initBrowserSettings() {
+    private void initBrowserSettings() throws IOException {
         switch (this.browserName) {
             case "chrome" -> {
                 ChromeOptions chromeOptions = new ChromeOptions();
@@ -54,11 +57,12 @@ public class BrowserEnv {
             }
             default -> throw new UnsupportedOperationException("Unsupported browser selected.");
         }
-        driver.get(System.getProperty("url"));
+        Configuration configuration = ConfigurationRetriever.getConfig();
+
+        driver.get(configuration.getEnvironment(currentEnvName).get("url").toString());
     }
 
     public WebDriver getDriver() {
         return this.driver;
     }
-
 }

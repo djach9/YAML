@@ -1,0 +1,2 @@
+620 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 109)
+638 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\djach\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
